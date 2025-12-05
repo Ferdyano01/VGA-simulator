@@ -59,7 +59,7 @@ architecture behavior of tb_bad_apple is
     constant H_BACK         : integer := 48;
     constant V_BACK         : integer := 33;
     constant MAX_FRAME      : integer := 1000;
-    constant FILE_LOCATION  : string  := "C:/Users/Jesaya/Documents/PSd/image_data.hex";
+    constant FILE_LOCATION  : string  := "C:/Users/Jesaya/Documents/PSd/image_data.hex"; -- Change to the appropriate file location
     constant ROM_WORDS : integer := (H_RES / 10) * (V_RES / 10) * MAX_FRAME; -- 640 * 480
 
 begin
